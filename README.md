@@ -4,6 +4,16 @@ Example [Go](https://golang.org/) package built into an [XCFramework](https://de
 
 Depends on <https://golang.org/cl/310949>.
 
+## Requirements
+
+This package can be built and run on any modern macOS system with Go, Swift 5.3, and Xcode 11 or later.
+
+## Usage
+
+To build the XCFramework and Swift package: `make build`
+
+To test: `make test`
+
 ## Author
 
 © Alta Software, LLC
