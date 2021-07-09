@@ -10,7 +10,7 @@ tools:
 .PHONY: Frameworks
 Frameworks: Frameworks/EchoGo.xcframework
 
-Frameworks/%.xcframework: Makefile $(wildcard Sources/*/*.go)
+Frameworks/%.xcframework: Makefile $(wildcard Sources/*/*.go) $(shell which gomobile)
 	gomobile init
 	gomobile bind -target ios -o $@ ./Sources/$*
 	touch $@
