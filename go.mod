@@ -11,4 +11,4 @@ require (
 	golang.org/x/text v0.3.5 // indirect
 )
 
-replace golang.org/x/mobile => github.com/ydnar/gomobile v0.0.0-20210709044546-50f941d1f5dd
+replace golang.org/x/mobile => github.com/ydnar/gomobile v0.0.0-20210709214616-623f8f38653c
