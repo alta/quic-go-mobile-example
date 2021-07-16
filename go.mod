@@ -10,3 +10,6 @@ require (
 	golang.org/x/sys v0.0.0-20210630005230-0f9fa26af87c // indirect
 	golang.org/x/text v0.3.6 // indirect
 )
+
+// replace golang.org/x/mobile => ../../ydnar/gomobile
+replace golang.org/x/mobile => github.com/ydnar/gomobile v0.0.0-20210716153922-2f07876477f0
