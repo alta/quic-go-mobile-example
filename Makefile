@@ -8,7 +8,7 @@ Frameworks: Frameworks/EchoGo.xcframework
 
 Frameworks/%.xcframework: Makefile tools $(wildcard Sources/*/*.go) $(shell which gomobile)
 	gomobile init
-	gomobile bind -target=ios,macos,maccatalyst -x -o $@ ./Sources/$*
+	gomobile bind -target=ios,iossimulator,macos,maccatalyst -x -o $@ ./Sources/$*
 	touch $@
 
 .PHONY: tools
