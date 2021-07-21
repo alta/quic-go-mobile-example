@@ -37,7 +37,7 @@ class EchoTests: XCTestCase {
 
 	func testEcho() throws {
 		let addr = "\(Self.host):\(Self.port)"
-		let message = "Hello QUIC!"
+		let message = "Hello QUIC from \(GoVersion())!"
 		var error: NSErrorPointer = nil
 
 		let response = GoEcho(addr, message, error)
