@@ -8,7 +8,6 @@ require (
 	golang.org/x/crypto v0.0.0-20210616213533-5ff15b29337e // indirect
 	golang.org/x/mobile v0.0.0-20210710064935-76c259c465ba
 	golang.org/x/sys v0.0.0-20210630005230-0f9fa26af87c // indirect
-	golang.org/x/text v0.3.6 // indirect
 )
 
 require (
@@ -16,7 +15,6 @@ require (
 	github.com/francoispqt/gojay v1.2.13 // indirect
 	github.com/fsnotify/fsnotify v1.5.1 // indirect
 	github.com/go-task/slim-sprig v0.0.0-20210107165309-348f09dbbbc0 // indirect
-	github.com/marten-seemann/qtls-go1-15 v0.1.5 // indirect
 	github.com/marten-seemann/qtls-go1-16 v0.1.4 // indirect
 	github.com/marten-seemann/qtls-go1-17 v0.1.0 // indirect
 	github.com/nxadm/tail v1.4.8 // indirect
@@ -30,4 +28,4 @@ require (
 
 // replace golang.org/x/mobile => ../../ydnar/gomobile
 
-replace golang.org/x/mobile => github.com/ydnar/gomobile v0.0.0-20210908162631-4be809c6993e
+replace golang.org/x/mobile => github.com/ydnar/gomobile v0.0.0-20210908205813-b15fb8cced6d
