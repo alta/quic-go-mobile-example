@@ -28,4 +28,4 @@ require (
 
 // replace golang.org/x/mobile => ../../ydnar/gomobile
 
-replace golang.org/x/mobile => github.com/ydnar/gomobile v0.0.0-20210908205813-b15fb8cced6d
+replace golang.org/x/mobile => github.com/ydnar/gomobile v0.0.0-20210909163231-37aff26bb3e4
