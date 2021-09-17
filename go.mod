@@ -6,7 +6,7 @@ require (
 	github.com/alta/insecure v0.0.0-20210905232608-f5263498f0b2
 	github.com/lucas-clemente/quic-go v0.23.0
 	golang.org/x/crypto v0.0.0-20210616213533-5ff15b29337e // indirect
-	golang.org/x/mobile v0.0.0-20210710064935-76c259c465ba
+	golang.org/x/mobile v0.0.0-20210917185523-6d8ad35e4603
 	golang.org/x/sys v0.0.0-20210630005230-0f9fa26af87c // indirect
 )
 
@@ -25,7 +25,3 @@ require (
 	golang.org/x/xerrors v0.0.0-20200804184101-5ec99f83aff1 // indirect
 	gopkg.in/tomb.v1 v1.0.0-20141024135613-dd632973f1e7 // indirect
 )
-
-// replace golang.org/x/mobile => ../../ydnar/gomobile
-
-replace golang.org/x/mobile => github.com/ydnar/gomobile v0.0.0-20210912152702-14c8d17d5369
